@@ -1,0 +1,34 @@
+:root {
+    --bg-color: black;
+    --text-color: #f0f0f5;
+    --grey-color: #3A3535;
+    --light-color: rgba(255, 255, 255, 0.05);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    padding: 40px;
+    background-image: linear-gradient(45deg, black, var(--grey-color));
+    color: var(--text-color);
+}
+
+.content {
+    padding: 2rem;
+    background: var(--light-color);
+    border-radius: 10px;
+}
+
